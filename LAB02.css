@@ -1,0 +1,97 @@
+/*--hàng hóa--*/
+.hh-box {
+    border-radius: 30px;
+    box-shadow: 0 0 5px silver;
+    position: relative;
+    display: inline-block;
+    margin: 20px 5px 5px 5px;
+    padding: 20px 0px 50px;
+    text-align: center;
+    width: 180px;
+    background-color: rgba(0, 34, 255, 0.079);
+}
+
+.hh-box:hover {
+    box-shadow: 0px 0px 10px rgb(55, 55, 55);
+    font-size: 17px;
+    color: #000000;
+}
+
+.hh-box-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 30px;
+    
+}
+
+.hh-box-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+}
+
+
+.hh-box-name {
+    position: absolute;
+    right: 0px;
+    top: -35px;
+    width: inherit;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+.hh-box-price {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-weight: bold;
+    color: rgb(81, 81, 81);
+}
+
+
+.hh-box-actions {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 100px;
+    float: right;
+}
+
+.hh-box-actions img {
+    cursor: pointer;
+    border: 0px;
+    
+}
+
+li {
+    display: inline-block;
+    margin: 50px 15px 0px 0px;
+}
+
+a img{
+    margin: 0px 0px;
+}
+
+.texttittle{
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #00237d;
+    font-size: 60px;
+    margin: 20px;
+    padding: 30px;
+}
+.hh-lagerbox {
+    border-radius: 5px;
+    box-shadow: 0 0 5px silver;
+    position: relative;
+    display: inline-block;
+    margin: 30px 5px 5px 5px;
+    padding: 50px 0px 30px;
+    text-align: center;
+    width: 99%;
+    /*background-image: linear-gradient(to bottom right, rgba(4, 84, 164, 0.784),rgb(4, 48, 58));*/
+}
